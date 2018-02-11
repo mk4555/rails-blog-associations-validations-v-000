@@ -8,6 +8,4 @@ class TagsController < ApplicationController
     end
   end
 
-  def tag
-  end
 end
