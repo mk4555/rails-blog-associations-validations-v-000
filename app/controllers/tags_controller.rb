@@ -3,5 +3,7 @@ class TagsController < ApplicationController
     @tag = Tag.new(params)
     if @tag.valid?
       @tag.save
+    else
+    end
   end
 end
