@@ -4,6 +4,7 @@ class TagsController < ApplicationController
     if @tag.valid?
       @tag.save
     else
+      render :new
     end
   end
 end
