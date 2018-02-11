@@ -7,4 +7,7 @@ class TagsController < ApplicationController
       render :new
     end
   end
+
+  def tag
+  end
 end
